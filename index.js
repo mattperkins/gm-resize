@@ -2,7 +2,7 @@ const gm = require('gm').subClass({imageMagick: true})
 const fs = require('fs')
 
 gm('cub.jpg')
-	.resize('25%')
+	.resize(400)
 	.toBuffer((err, buffer) => {
 	if(err) {
 		console.log(err)

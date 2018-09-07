@@ -4,9 +4,11 @@
   "main": "index.js",
   "author": "mattperkins <github@mattperkins.com>",
   "license": "MIT",
-  "description": "# RUN  ## yarn dev",
+  "description": "image resizer",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js"
   },
-  "keywords": []
+  "dependencies": {
+    "gm": "^1.23.0"
+  }
 }
