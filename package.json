@@ -1,0 +1,12 @@
+{
+  "name": "gm-resize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mattperkins <github@mattperkins.com>",
+  "license": "MIT",
+  "description": "# RUN  ## yarn dev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
